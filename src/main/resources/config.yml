@@ -1,0 +1,8 @@
+messages:
+  self-message: "&cYou cannot message yourself."
+  player-not-online: "&cThat player is not online."
+  usage: "&cUsage: /msg <player> <message>"
+
+formats:
+  sender: "&e(To &a{receiver}&e) &e{message}"
+  receiver: "&e(From &a{sender}&e) &e{message}"
