@@ -1,0 +1,15 @@
+name: PrivatePM
+version: '1.0.0'
+main: com.privatepm.plugin.PrivatePMPlugin
+api-version: '1.21'
+author: you
+description: Tiny private-message override for /msg, /tell, /w, /m, /pm that intercepts before Essentials handles them.
+
+softdepend:
+  - Essentials
+  - EssentialsChat
+
+permissions:
+  privatepm.use:
+    description: Allows using the private message commands (/msg, /tell, /w, /m, /pm)
+    default: true
